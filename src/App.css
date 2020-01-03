@@ -46,3 +46,49 @@
 	padding: 20px 15px 30px;
 
 }
+
+.slider{
+  margin-top: 20px;
+}
+
+.card{
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 0 0 10px #ccc;
+	border-radius:	10px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  
+}
+
+.text{
+  position: absolute;
+  margin-left: 400px;
+  text-align: left;
+
+}
+
+/* define layouts on medium screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .text{
+    position: static;
+    text-align: center;
+  
+  }
+
+
+}
+
+/* define layouts on mobile screens */
+
+@media screen and (max-width: 767px) {
+  .text{
+    position: static;
+    text-align: center;
+  
+  }
+
+}
+
