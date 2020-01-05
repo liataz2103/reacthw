@@ -43,7 +43,8 @@
   border-radius: 10px;
 	box-shadow: 0 0 10px #ccc;
 	margin-top: 50px;
-	padding: 20px 15px 30px;
+  padding: 20px 15px 30px;
+  
 
 }
 
@@ -51,7 +52,7 @@
   margin-top: 20px;
 }
 
-.card{
+.card {
   width: 100%;
   border: 1px solid black;
   box-shadow: 0 0 10px #ccc;
@@ -69,26 +70,13 @@
 
 }
 
-/* define layouts on medium screens */
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .text{
-    position: static;
-    text-align: center;
-  
-  }
-
+.addPostInput{
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
 
 }
 
-/* define layouts on mobile screens */
 
-@media screen and (max-width: 767px) {
-  .text{
-    position: static;
-    text-align: center;
-  
-  }
-
-}
 

@@ -26,14 +26,20 @@ export default class AddPost extends Component {
 
     render() {
         return (
-            <div>
-
-                { <input onChange = {this.validTitle} style={{backgroundColor: this.state.bgc}} placeholder = "title" /> /*this makes sure that it will take the function in the class and not in the function render */}
-                <input placeholder = "info" />
-                <button>Submit</button>
-
-                
-            </div>
+        <div className="container">
+            <div className="card">
+                <div className="row">
+                    <div className="col-6 offset-3">
+                        <h1>Add Post</h1>
+                        <label for="name">Title</label>
+                        { <input onChange = {this.validTitle} style={{backgroundColor: this.state.bgc}} placeholder = "Title" className="addPostInput" /> /*this makes sure that it will take the function in the class and not in the function render */}
+                        <label for="name">Info</label>
+                        <input placeholder = "Info" className="addPostInput" />
+                        <button className="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
         )
     }
 }

@@ -14,7 +14,7 @@ export default function Post(props) {
                         <div class ="text">
                             <h4>{props.title}</h4>
                             <p>{props.info}</p>
-                            <button id="btn" >Delete</button>    
+                            <button id="btn" style={{borderRadius: '5px'}} >Delete</button>    
                         </div>
                     </div>
                 </div>
@@ -23,3 +23,4 @@ export default function Post(props) {
             
     )
 }
+
